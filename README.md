@@ -1,50 +1,52 @@
-# LogAI: Your Intelligent Journaling Companion  
+# AI Journaling App
 
-Welcome to **LogAI**, a personal project exploring the possibilities of AI-powered journaling. Designed to provide an intuitive and aesthetically pleasing journaling experience, LogAI aims to blend modern design principles with advanced AI capabilities. While not all features are fully implemented—given the complexity and scope—this project serves as a conceptual foundation for what a feature-rich journaling app could achieve.  
+    A minimalist AI-powered journaling app built with Next.js, ShadCN UI, and Tailwind CSS.  This app allows users to create journal entries using text or voice input, with AI-powered transcription and analysis.
 
----  
+    ## Features
 
-## **Key Features** (Theoretical and Partially Implemented)  
+    * **Text and Voice Journaling:** Create entries using a rich text editor or by recording audio.
+    * **AI-Powered Transcription:**  Transcribe voice recordings into text using a simulated AI service (in a real application, this would use a service like OpenAI's Whisper API or AssemblyAI).
+    * **AI-Powered Insights:**  Gain insights from your journal entries, including mood detection and keyword extraction (simulated AI service used).
+    * **Responsive Design:**  The app is designed to be responsive and work seamlessly across different devices.
+    * **Clean and Minimalist UI:**  Uses ShadCN UI and Tailwind CSS for a modern and visually appealing interface.
+    * **Dark Mode Support:**  Easily switch between light and dark modes.
+    * **Secure Storage:**  Journal entries are stored securely (simulated Supabase integration).
+    * **Customizable Settings:**  Adjust various settings to personalize your journaling experience.
 
-### 1. **Journaling Options**  
-- **Text Journaling**: A distraction-free text editor for capturing your thoughts.  
-- **Voice Journaling**: Record your thoughts and let AI transcribe them into text (planned functionality).  
+    ## Getting Started
 
-### 2. **AI-Powered Insights**  
-- **Mood Analysis**: Detect emotional trends in your journal entries (conceptual).  
-- **Keyword Extraction**: Highlight recurring themes and ideas (planned).  
-- **Summaries**: Condensed overviews of your entries for quick reviews (not yet implemented).  
+    This project is built using Next.js and requires Node.js and npm (or yarn) to run.
 
-### 3. **Data Analytics Dashboard**  
-- Visualize trends such as mood changes over time, writing frequency, and common themes (future goal).  
+    1. **Clone the repository:**
+       ```bash
+       git clone <repository_url>
+       ```
 
-### 4. **Customizable Experience**  
-- Support for dark mode, font selection, and adaptable layouts (partially explored).  
+    2. **Install dependencies:**
+       ```bash
+       cd ai-journaling-app
+       npm install
+       ```
 
----  
+    3. **Start the development server:**
+       ```bash
+       npm run dev
+       ```
 
-## **Technical Framework**  
+    4. **Open the app:**  Open your browser and navigate to `http://localhost:3000`.
 
-This project is built using the following technologies:  
-- **Frontend**:  
-  - React.js with Tailwind CSS for responsive and modern UI design.  
-  - ShadCN-UI components for polished and reusable interface elements.  
-- **Backend**:  
-  - Supabase for secure storage and user authentication.  
-  - AI transcription and NLP powered by OpenAI’s Whisper (conceptual).  
-- **Audio Handling**:  
-  - Audio recording and playback designed using Web Audio API.  
+    **Note:** This project uses a simulated backend and AI services for demonstration purposes.  A production-ready application would require integration with a real AI transcription service and a database.
 
----  
+    ## Technology Stack
 
-## **Limitations**  
+    * **Frontend:** Next.js, React, ShadCN UI, Tailwind CSS, Lucide React, react-h5-audio-player, input-otp, react-resizable-panels, @radix-ui/react-* components
+    * **Backend (Simulated):** Supabase (requires configuration)
+    * **AI Services (Simulated):**  AI transcription and analysis are simulated.  For a real application, consider OpenAI's Whisper API, AssemblyAI, or Google Cloud Speech-to-Text.
 
-As a personal project, LogAI is not fully functional. Many features—such as advanced AI insights, voice transcription, and comprehensive analytics—are included as theoretical components to illustrate the app’s potential. Building a complete, production-ready version would require extensive time, resources, and infrastructure beyond the scope of this project.  
+    ## Contributing
 
----  
+    Contributions are welcome! Please feel free to open issues or submit pull requests.
 
-## **Vision**  
+    ## License
 
-LogAI represents an exploration of the intersection between AI and personal journaling. While not fully realized, it highlights the possibilities of creating an intelligent journaling experience that empowers users to reflect on their thoughts and habits.  
-
-Thank you for exploring LogAI!  
+    [MIT](https://choosealicense.com/licenses/mit/)
