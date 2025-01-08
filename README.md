@@ -1,4 +1,4 @@
-### LogAI: Your Intelligent Journaling Companion  
+# LogAI: Your Intelligent Journaling Companion  
 
 Welcome to **LogAI**, a personal project exploring the possibilities of AI-powered journaling. Designed to provide an intuitive and aesthetically pleasing journaling experience, LogAI aims to blend modern design principles with advanced AI capabilities. While not all features are fully implemented—given the complexity and scope—this project serves as a conceptual foundation for what a feature-rich journaling app could achieve.  
 
